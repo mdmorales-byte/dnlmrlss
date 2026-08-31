@@ -9,7 +9,7 @@ export default function About() {
           <div className="relative overflow-hidden rounded-2xl border border-line/60 bg-panel/60">
             <div className="relative h-[420px] w-full">
               <Image
-                src="/images/mick-formal.svg"
+                src="/images/Formal.jpg"
                 alt="Mick Daniel Morales"
                 fill
                 sizes="(max-width: 768px) 100vw, 40vw"
