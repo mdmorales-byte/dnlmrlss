@@ -29,36 +29,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="glass-card ml-auto w-full max-w-[430px] rounded-[22px] border border-line/70 p-5 fade-up">
-          <div className="flex items-center gap-3 border-b border-line/50 pb-4">
-            <div className="relative h-11 w-11 overflow-hidden rounded-full border border-line/70 bg-signal/20">
-              <Image
-                src="/images/Fashion.jpg"
-                alt="Mick Daniel Morales"
-                fill
-                sizes="44px"
-                className="object-cover object-center"
-              />
-            </div>
-            <div>
-              <p className="text-[15px] font-medium text-paper">{profile.fullName}</p>
-              <p className="text-[12px] text-fog">{profile.location}</p>
-            </div>
-          </div>
-          <div className="mt-5 space-y-4 text-sm text-fog">
-            <div className="flex items-center justify-between border-b border-line/30 pb-2">
-              <span>Role</span>
-              <span className="text-paper">{profile.title}</span>
-            </div>
-            <div className="flex items-center justify-between border-b border-line/30 pb-2">
-              <span>School</span>
-              <span className="text-paper">{profile.school}</span>
-            </div>
-            <div className="flex items-center justify-between">
-              <span>Status</span>
-              <span className="text-signal2">Available</span>
-            </div>
-          </div>
+        <div className="relative h-[400px] overflow-hidden rounded-[28px] border border-line/60 bg-panel/60 shadow-[0_20px_60px_rgba(0,0,0,0.2)] fade-up">
+          <Image
+            src="/images/Formal.jpg"
+            alt="Mick Daniel Morales"
+            fill
+            sizes="(max-width: 768px) 100vw, 45vw"
+            className="object-cover object-center"
+          />
         </div>
       </div>
     </section>
