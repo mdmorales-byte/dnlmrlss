@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { profile } from '@/lib/data';
 
 export default function Hero() {
@@ -26,7 +27,15 @@ export default function Hero() {
 
         <div className="glass-card rounded-2xl border border-line/70 p-5 fade-up">
           <div className="flex items-center gap-3 border-b border-line/50 pb-4">
-            <div className="h-10 w-10 rounded-full bg-signal/20 text-center text-lg leading-10 text-signal">M</div>
+            <div className="relative h-10 w-10 overflow-hidden rounded-full border border-line/70 bg-signal/20">
+              <Image
+                src="/images/Formal.jpg"
+                alt="Mick Daniel Morales"
+                fill
+                sizes="40px"
+                className="object-cover"
+              />
+            </div>
             <div>
               <p className="text-sm font-medium text-paper">{profile.fullName}</p>
               <p className="text-xs text-fog">{profile.location}</p>
