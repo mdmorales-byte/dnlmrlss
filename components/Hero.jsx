@@ -35,7 +35,7 @@ export default function Hero() {
             alt="Mick Daniel Morales"
             fill
             sizes="(max-width: 768px) 100vw, 45vw"
-            className="object-cover object-center"
+            className="object-cover object-top"
           />
         </div>
       </div>

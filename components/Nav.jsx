@@ -12,7 +12,7 @@ export default function Nav() {
               alt="Mick Daniel Morales"
               fill
               sizes="44px"
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
           <div className="flex flex-col leading-none">
