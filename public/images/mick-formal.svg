@@ -1,0 +1,15 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" fill="#0B1220"/>
+  <rect x="90" y="90" width="720" height="1020" rx="30" fill="url(#paint0_linear_4_1)" stroke="#2A3F5A"/>
+  <circle cx="450" cy="420" r="180" fill="#F7A93B" fill-opacity="0.18"/>
+  <circle cx="450" cy="415" r="110" fill="#EAF1F6" fill-opacity="0.88"/>
+  <path d="M310 900C330 770 382 710 450 710C518 710 570 770 590 900H310Z" fill="#6EE7F9" fill-opacity="0.72"/>
+  <path d="M370 415L450 300L530 415H370Z" fill="#0F1D2B" fill-opacity="0.8"/>
+  <text x="450" y="1015" text-anchor="middle" fill="#EAF1F6" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Mick Daniel</text>
+  <defs>
+    <linearGradient id="paint0_linear_4_1" x1="120" y1="120" x2="780" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#112335"/>
+      <stop offset="1" stop-color="#0A1520"/>
+    </linearGradient>
+  </defs>
+</svg>
