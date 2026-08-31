@@ -8,11 +8,11 @@ export default function About() {
         <div className="grid gap-12 md:grid-cols-[0.9fr_1.1fr] md:items-center">
           <div className="relative h-[540px] overflow-hidden rounded-[28px] border border-line/60 bg-panel/60 shadow-[0_20px_60px_rgba(0,0,0,0.2)]">
             <Image
-              src="/images/Formal.jpg"
+              src="/images/Fashion.jpg"
               alt="Mick Daniel Morales"
               fill
               sizes="(max-width: 768px) 100vw, 45vw"
-              className="object-cover"
+              className="object-cover object-center"
             />
           </div>
 

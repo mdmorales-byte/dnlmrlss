@@ -33,11 +33,11 @@ export default function Hero() {
           <div className="flex items-center gap-3 border-b border-line/50 pb-4">
             <div className="relative h-11 w-11 overflow-hidden rounded-full border border-line/70 bg-signal/20">
               <Image
-                src="/images/Formal.jpg"
+                src="/images/Fashion.jpg"
                 alt="Mick Daniel Morales"
                 fill
                 sizes="44px"
-                className="object-cover"
+                className="object-cover object-center"
               />
             </div>
             <div>
