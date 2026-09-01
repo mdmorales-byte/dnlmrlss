@@ -9,27 +9,27 @@ export default function Hero() {
           <p className="mb-5 font-mono text-[11px] uppercase tracking-[0.28em] text-signal2">
             {profile.name}
           </p>
-          <h1 className="max-w-[720px] text-[4.2rem] font-bold leading-[0.88] tracking-[-0.075em] text-paper-light dark:text-paper md:text-[7rem]">
+          <h1 className="max-w-[720px] text-[4.2rem] font-semibold leading-[0.88] tracking-[-0.075em] text-paper md:text-[7rem]">
             Building clean,
             <br />
             useful digital
             <br />
             products.
           </h1>
-          <p className="mt-7 max-w-[660px] text-[1.05rem] leading-8 text-fog-light dark:text-fog md:text-[1.26rem]">
+          <p className="mt-7 max-w-[660px] text-[1.05rem] leading-8 text-fog md:text-[1.26rem]">
             I&apos;m a full-stack developer and IT student focused on practical, user-first software for web, mobile, and infrastructure.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="#featured" className="rounded-full bg-signal px-6 py-3 text-[14px] font-semibold text-ink transition hover:bg-signal/90">
+            <a href="#featured" className="rounded-full bg-signal px-6 py-3 text-[14px] font-medium text-ink transition hover:bg-signal/90">
               Featured projects
             </a>
-            <a href="#contact" className="rounded-full border border-line-light dark:border-line px-6 py-3 text-[14px] font-medium text-paper-light dark:text-paper transition hover:border-signal hover:text-signal">
+            <a href="#contact" className="rounded-full border border-line px-6 py-3 text-[14px] font-medium text-paper transition hover:border-signal hover:text-signal">
               Get in touch
             </a>
           </div>
         </div>
 
-        <div className="relative h-[400px] overflow-hidden rounded-[20px] border border-line-light/60 dark:border-line/60 bg-white dark:bg-panel/60 shadow-card-light dark:shadow-[0_20px_60px_rgba(0,0,0,0.2)] fade-up">
+        <div className="relative h-[400px] overflow-hidden rounded-[28px] border border-line/60 bg-panel/60 shadow-[0_20px_60px_rgba(0,0,0,0.2)] fade-up">
           <Image
             src="/images/Formal.jpg"
             alt="Mick Daniel Morales"
